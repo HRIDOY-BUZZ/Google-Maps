@@ -6,8 +6,8 @@
     }
     else
     {
-        $long = "90.27923977010119";
-        $latt = "23.78057325790923";
+        $long = "23.78057325790923";
+        $latt = "90.27923977010119";
     }
 ?>
 <!DOCTYPE html>
@@ -49,8 +49,8 @@
     <div class="map">
         <center>
         <iframe 
-            src="https://maps.google.com/maps?q=<?php echo $long; ?>, <?php echo $latt; ?>&z=15&output=embed"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            src="https://maps.google.com/maps?q=<?php echo $long; ?>, <?php echo $latt; ?>&z=17&output=embed"
+            width="600" height="450" style="border:0;" loading="lazy">
         </iframe>
         </center>
         <?php
